@@ -46,9 +46,11 @@ export function Navigation() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-40 transition-all duration-300",
-        isScrolled || isMobileMenuOpen
+        isScrolled
           ? "bg-background/80 backdrop-blur-lg border-b shadow-sm"
-          : "bg-transparent"
+          : isMobileMenuOpen
+            ? "bg-background backdrop-blur-lg border-b shadow-sm"
+            : "bg-transparent"
       )}
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
