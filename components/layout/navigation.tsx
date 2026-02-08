@@ -46,7 +46,7 @@ export function Navigation() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-40 transition-all duration-300",
-        isScrolled
+        isScrolled || isMobileMenuOpen
           ? "bg-background/80 backdrop-blur-lg border-b shadow-sm"
           : "bg-transparent"
       )}
