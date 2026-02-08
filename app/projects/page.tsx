@@ -60,7 +60,7 @@ document: "https://www.dropbox.com/scl/fo/028tp8vzmipfatii98ktt/AGh-CrSaf9T7jOlY
   {
     id: "fpga-keypad-scanner",
     title: "Finite State Machine Implementation for Signed Digital Calculator on FPGA",
-description: "Designed and implemented a Finite State Machine (FSM) in Verilog HDL for a signed integer calculator interface on a Nexys FPGA Board. The robust system utilizes a shift register mechanism (R0-R3) and five states (S0-S4) to accept and store up to four BCD digits while performing input validation (limiting to 0-9). Engineered a dedicated shiftSign module to dynamically manage and correctly position the negative sign on a seven-segment display, ensuring proper display regardless of the number of digits entered. This project successfully demonstrated hardware-software integration and synchronous design principles.",
+description: "Designed and implemented a **Finite State Machine (FSM)** in **Verilog HDL** for a **signed integer calculator interface** on a **Nexys FPGA Board**. The robust system utilizes a **shift register** mechanism (R0-R3) and five states (S0-S4) to accept and store up to four BCD digits while performing **input validation** (limiting to 0-9). Engineered a dedicated **`shiftSign` module** to dynamically manage and correctly position the negative sign on a **seven-segment display**, ensuring proper display regardless of the number of digits entered. This project successfully demonstrated **hardware-software integration** and **synchronous design** principles.",
 tags: ["Verilog HDL", "FPGA Development", "Finite State Machine (FSM)", "Digital Logic Design", "Signed Arithmetic", "Nexys Board", "Vivado", "Hardware-Software Integration", "Embedded Systems"],
 document:"https://docs.google.com/document/d/1Hi16KRczsaI1t8-Gd7TR8OtOLMBY80OR/edit?usp=sharing&ouid=106981614339979825445&rtpof=true&sd=true",
     image: "/images/FPGA.png",
@@ -72,7 +72,7 @@ document:"https://docs.google.com/document/d/1Hi16KRczsaI1t8-Gd7TR8OtOLMBY80OR/e
  {
     id: "fpga-Seg Adder-Display",
     title: "FPGA BCD Adder & 7-Seg Display",
-description: "Designed and implemented a high-performance 2-Digit Binary-Coded Decimal (BCD) Adder in Verilog HDL for the NEXYS FPGA Board. The system incorporates custom modules for 1-Digit BCD addition, code conversion, and a synchronous 8-digit 7-segment display driver for visualization. The circuit is capable of generating a 3-digit output, including the carry-out, successfully demonstrating core principles of digital arithmetic and hardware description language (HDL) programming.",
+description: "Designed and implemented a high-performance **2-Digit Binary-Coded Decimal (BCD) Adder** in **Verilog HDL** for the **NEXYS FPGA Board**. The system incorporates custom modules for **1-Digit BCD addition**, **code conversion**, and a **synchronous 8-digit 7-segment display driver** for visualization. The circuit is capable of generating a 3-digit output, including the **carry-out**, successfully demonstrating core principles of **digital arithmetic** and **hardware description language (HDL) programming**.",
 tags: ["Verilog HDL", "FPGA Implementation", "Digital Logic Design", "BCD Adder", "7-Segment Display", "Synchronous Design", "Digital Arithmetic", "Hardware Description Language", "NEXYS Board"],
 document:"https://docs.google.com/document/d/1n_7zZhVvS2S806R6cGDE04LpyUlQC2or/edit?usp=sharing&ouid=106981614339979825445&rtpof=true&sd=true",
     image: "/images/FPGASeg.jpg",
@@ -84,7 +84,7 @@ document:"https://docs.google.com/document/d/1n_7zZhVvS2S806R6cGDE04LpyUlQC2or/e
   {
     id: "Control System",
     title: "Closed loop Servo Position Control System",
-description: "Designed and implemented a digital Proportional-Integral (PI) controller for a servo speed control system, building upon an existing baseline. Developed the controller to meet stringent performance criteria, including an aggressive 0.033-second settling time and less than 5% overshoot. Performed system simulation (Simulink), hardware implementation, and extensive comparative testing to validate design. Successfully achieved a low 0.5% overshoot and conducted steady-state error analysis for a unit-ramp input, validating theoretical concepts of PID control through practical application.",
+description: "Designed and implemented a **digital Proportional-Integral (PI) controller** for a **servo speed control system**, building upon an existing baseline. Developed the controller to meet stringent performance criteria, including an aggressive **0.033-second settling time** and **less than 5% overshoot**. Performed system **simulation (Simulink)**, **hardware implementation**, and extensive **comparative testing** to validate design. Successfully achieved a low **0.5% overshoot** and conducted **steady-state error analysis** for a unit-ramp input, validating theoretical concepts of **PID control** through practical application.",
 tags: ["Control Systems Engineering", "Digital Control", "PI Controller", "Simulink", "System Modeling", "Hardware Implementation", "Mechatronics", "Feedback Control", "Embedded Systems"],
  image: "/images/control_system.png",
     category: "Power & Control",
@@ -94,7 +94,7 @@ tags: ["Control Systems Engineering", "Digital Control", "PI Controller", "Simul
   {
     id: "ac-induction-motor-driver",
     title: "Three Phase AC Induction Motor Driver",
-description: "Designed, simulated, and analyzed a Three-Phase Induction Motor Drive System using PSIM for a high-voltage application. The architecture includes a 3-phase diode bridge rectifier, IGBT transistor inverter, and a PWM switch controller for AC-DC-AC conversion. Performed power flow analysis and transient simulations to evaluate 3-phase current and voltage waveforms, demonstrating the impact of PWM frequency on output quality and the controller's role in maintaining desired torque and speed under varying load conditions.",
+description: "Designed, simulated, and analyzed a **Three-Phase Induction Motor Drive System** using **PSIM** for a high-voltage application. The architecture includes a **3-phase diode bridge rectifier**, **IGBT transistor inverter**, and a **PWM switch controller** for **AC-DC-AC conversion**. Performed **power flow analysis** and **transient simulations** to evaluate **3-phase current** and **voltage waveforms**, demonstrating the impact of **PWM frequency** on output quality and the controller's role in maintaining desired **torque and speed** under varying load conditions.",
 tags: ["Power Electronics", "Induction Motor Drive", "PSIM Simulation", "IGBT", "PWM Control", "AC-DC Conversion", "Control Systems", "Electrical Engineering"], 
 document: "https://drive.google.com/file/d/1XA91d0pC1vHTgDDDG0uowIBfpNz2CrVw/view?usp=sharing",
     category: "Power & Control",
@@ -105,7 +105,7 @@ document: "https://drive.google.com/file/d/1XA91d0pC1vHTgDDDG0uowIBfpNz2CrVw/vie
   {
     id: "cfoa-amplifier",
   title: "High-Speed Current Feedback Op-Amp Design and Second-Order Active Filter Implementation",
-description: "Designed and analyzed a Current Feedback Operational Amplifier (CFOA), demonstrating its inherently faster slew-rate capability and superior transient performance compared to Voltage Feedback Amplifiers. Implemented a 2nd Order Active Low Pass Filter, investigating the effects of frequency and Q scaling by manipulating component values. Validated circuit performance through LTSpice simulation, achieving a stable closed-loop gain of 2 and calculating a high slew rate (SR) of 15.9 V/µs. The project involved comprehensive transient analysis, DC operating point analysis, and frequency response simulation.",
+description: "Designed and analyzed a **Current Feedback Operational Amplifier (CFOA)**, demonstrating its **inherently faster slew-rate capability** and superior transient performance compared to Voltage Feedback Amplifiers. Implemented a **2nd Order Active Low Pass Filter**, investigating the effects of **frequency and Q scaling** by manipulating component values. Validated circuit performance through **LTSpice simulation**, achieving a stable **closed-loop gain of 2** and calculating a high **slew rate (SR) of 15.9 V/µs**. The project involved comprehensive **transient analysis**, **DC operating point analysis**, and **frequency response simulation**.",
 tags: ["Current Feedback Op Amp", "Analog Circuit Design", "Active Filter Design", "Slew Rate", "LTSpice", "Simulation and Analysis", "Analog Electronics", "Frequency Response"], 
 document: "https://docs.google.com/document/d/1mFoIWeQtzk_tjknTB0WSbNltBi_v-6ka/edit?usp=sharing&ouid=106981614339979825445&rtpof=true&sd=true",
     image: "/images/analog.png",
@@ -115,7 +115,7 @@ document: "https://docs.google.com/document/d/1mFoIWeQtzk_tjknTB0WSbNltBi_v-6ka/
   {
     id: "smps-design",
     title: "Switch-Mode Power Supply Design",
-description: "Designed and implemented a high-efficiency Switch-Mode Power Supply (SMPS) to perform AC-DC power conversion (120V AC to 5V DC). The architecture utilizes a buck converter topology with the LT1076 CT5 regulator for robust voltage regulation and a 9F8-48 transformer for initial voltage step-down. The final system achieved a stable 5V DC output with a high current capability (0.33A-1A) and minimal ripple (0.224% in simulation), validating the design through LTSpice simulation and oscilloscope output analysis.",
+description: "Designed and implemented a high-efficiency **Switch-Mode Power Supply (SMPS)** to perform **AC-DC power conversion** (120V AC to 5V DC). The architecture utilizes a **buck converter** topology with the **LT1076 CT5 regulator** for robust **voltage regulation** and a **9F8-48 transformer** for initial voltage step-down. The final system achieved a stable 5V DC output with a high current capability (0.33A-1A) and **minimal ripple** (0.224% in simulation), validating the design through **LTSpice simulation** and **oscilloscope output** analysis.",
 tags: ["Power Electronics", "Switch-Mode Power Supply (SMPS)", "Buck Converter", "Voltage Regulation", "AC-DC Conversion", "Circuit Design", "LTSpice", "Analog Electronics", "System Simulation"], 
 document: "https://docs.google.com/document/d/1Ru_Rr_nkPKUi-IC-TuUeKs6Qbnp2WqaV/edit?usp=sharing&ouid=106981614339979825445&rtpof=true&sd=true",
     category: ["Circuit Design", "Power & Control"],
@@ -134,7 +134,7 @@ document: "https://docs.google.com/document/d/1Ru_Rr_nkPKUi-IC-TuUeKs6Qbnp2WqaV/
   {
     id: "servo-motor-driver",
     title: "Device Driver & Embedded Servo Motor Controller",
-description: "Designed and implemented an embedded system using the LPC1114 ARM Microcontroller and ARM Assembly Language to generate Pulse Width Modulation (PWM) signals via hardware timers. Enabled precise servo motor control (0 to 180 degrees) via a keypad interface and LCD feedback. The system features interrupt-driven input handling, configuration of multiple 32-bit timers for high-precision PWM, and on-chip SRAM memory management for storing pulse parameters, demonstrating expertise in low-level control and system integration.",
+description: "Designed and implemented an **embedded system** using the **LPC1114 ARM Microcontroller** and **ARM Assembly Language** to generate **Pulse Width Modulation (PWM)** signals via hardware timers. Enabled precise **servo motor control** (0 to 180 degrees) via a **keypad interface** and **LCD feedback**. The system features **interrupt-driven input handling**, configuration of **multiple 32-bit timers** for high-precision PWM, and **on-chip SRAM memory management** for storing pulse parameters, demonstrating expertise in low-level control and **system integration**.",
 tags: ["Embedded Systems", "PWM Generation", "Servo Motor Control", "ARM Assembly", "Microcontroller (LPC1114)", "GPIO", "Timers/Interrupts", "Keil uVision", "Hardware-Software Integration", "Low-Level Programming"], 
 document: "https://docs.google.com/document/d/17hjXy1J5khpZpvNnJJpWWBRo5xuh4GKU/edit?usp=sharing&ouid=106981614339979825445&rtpof=true&sd=true",
     category: ["HW/Embedded System", "Power & Control"],
@@ -148,7 +148,7 @@ document: "https://docs.google.com/document/d/17hjXy1J5khpZpvNnJJpWWBRo5xuh4GKU/
 {
     id: "lora-remote-control",
     title: "Low-Power, Long-Range LoRa-Based Remote Control System for Motor Control",
-description: "Designed and implemented a full embedded system for a motorized boat using LoRa for long-range communication. The system pairs an Arduino transmitter with a PIC24EP128GP202 microcontroller receiver, which manages an L298N motor controller via GPIO. Engineered robust digital communication protocols, including implementation of UART and AT commands for module configuration, along with parsing algorithms and a software circular buffer to ensure low-latency and data integrity for reliable remote maneuvering.",
+description: "Designed and implemented a full **embedded system** for a motorized boat using **LoRa** for long-range communication. The system pairs an **Arduino** transmitter with a **PIC24EP128GP202 microcontroller** receiver, which manages an **L298N motor controller** via **GPIO**. Engineered robust **digital communication protocols**, including implementation of **UART** and **AT commands** for module configuration, along with **parsing algorithms** and a **software circular buffer** to ensure **low-latency** and **data integrity** for reliable remote maneuvering.",
 tags: ["Embedded Systems", "LoRa", "PIC Microcontroller (MCU)", "Arduino", "PIC24", "Motor Control", "Digital Communications", "UART", "Hardware Design", "Wireless Communication"], 
 document: "https://docs.google.com/document/d/10XDYSTVLPRuqUzuuoBa65qyKJcJzsw19/edit?usp=sharing&ouid=106981614339979825445&rtpof=true&sd=true",
     category: ["Electromagnetics", "HW/Embedded System"],
@@ -158,7 +158,7 @@ document: "https://docs.google.com/document/d/10XDYSTVLPRuqUzuuoBa65qyKJcJzsw19/
   {
     id: "multi-sensor-rtos",
     title: "Real-Time Embedded System for Sonar/GPS Mapping with FreeRTOS and Mutex Synchronization",
-description: "Designed and implemented a high-reliability Real-Time Embedded System using FreeRTOS on a Microchip PIC24EP128GP202 microcontroller for an RC boat with Sonar/GPS Mapping. Architected and managed three concurrent, prioritized tasks (Sonar, GPS, Recorder) to perform multi-sensor data integration and logging. Implemented advanced synchronization mechanisms using Mutexes (including Priority Inheritance) to prevent race conditions on shared sensor data and utilized critical sections for time-sensitive I/O. Achieved deterministic, non-blocking operation using preemptive scheduling for efficient resource utilization.",
+description: "Designed and implemented a high-reliability **Real-Time Embedded System** using **FreeRTOS** on a **Microchip PIC24EP128GP202** microcontroller for an **RC boat with Sonar/GPS Mapping**. Architected and managed three concurrent, prioritized tasks (**Sonar, GPS, Recorder**) to perform **multi-sensor data integration** and logging. Implemented advanced **synchronization mechanisms** using **Mutexes** (including **Priority Inheritance**) to prevent **race conditions** on shared sensor data and utilized **critical sections** for time-sensitive I/O. Achieved deterministic, non-blocking operation using **preemptive scheduling** for efficient resource utilization.",
 tags: ["FreeRTOS", "Real-Time Operating System (RTOS)", "Embedded C", "Microcontroller (PIC24)", "Sensor Fusion", "Task Scheduling", "Mutex", "Priority Inheritance", "Concurrency", "Hardware-Software Interface"], 
 document: "https://drive.google.com/file/d/1tXycSOaX4-BnAuuK3v_NIIxVb3bTBDzU/view?usp=sharing",
     category: ["HW/Embedded System", "Software (OOP)"],
@@ -168,7 +168,7 @@ document: "https://drive.google.com/file/d/1tXycSOaX4-BnAuuK3v_NIIxVb3bTBDzU/vie
   {
     id: "sonar-sensor-circuit",
     title: "Sonar Sensor Circuit Design",
-description: "Engineered and implemented a custom 40 kHz sonar transceiver circuit for depth measurement, featuring a multi-stage analog front-end and high-voltage transmitter. The Transmitter utilizes an H-bridge inverter and a 1:10 variable impedance transformer to generate a 40-volt peak-to-peak pulse. The Receiver employs a Low Noise Instrumentation Amplifier (INA129) for initial high-gain amplification, followed by an LM741-based active filter and final rectification stage before Analog-to-Digital Conversion (ADC), demonstrating robust analog circuit design and signal conditioning for environmental sensing.",
+description: "Engineered and implemented a custom **40 kHz sonar transceiver** circuit for depth measurement, featuring a multi-stage **analog front-end** and high-voltage transmitter. The **Transmitter** utilizes an **H-bridge inverter** and a **1:10 variable impedance transformer** to generate a **40-volt peak-to-peak pulse**. The **Receiver** employs a **Low Noise Instrumentation Amplifier (INA129)** for initial high-gain amplification, followed by an **LM741-based active filter** and final **rectification stage** before **Analog-to-Digital Conversion (ADC)**, demonstrating robust **analog circuit design** and **signal conditioning** for environmental sensing.",
 tags: ["Analog Circuit Design", "Sonar Transceiver", "Signal Conditioning", "Instrumentation Amplifier", "H-Bridge Inverter", "Active Filter", "Low-Noise Design", "Power Electronics", "Transducer Interface", "Hardware Engineering"], 
 
     category: "Circuit Design",
@@ -179,7 +179,7 @@ document: "https://drive.google.com/file/d/1QUJyTAowjudIeftRK-5p_jG3Jyz-LCYI/vie
  {
     id: "Digital Electronics",
   title: "Digital Electronics - Half Adder Design and Implementation using CMOS and SystemVerilog",
-description: "Designed and implemented a Half Adder circuit using CD4007 CMOS transistors and fundamental logic gates (NAND, NOR, NOT). The project involved comprehensive hardware-level design and simulation (LTSpice) for truth table verification, followed by digital logic synthesis using Xilinx Vivado and SystemVerilog HDL. Demonstrated expertise in CMOS circuit design, conversion of complex logic (XOR) to universal gates, and Hardware Description Language (HDL) verification.",
+description: "Designed and implemented a **Half Adder** circuit using **CD4007 CMOS transistors** and fundamental logic gates (**NAND, NOR, NOT**). The project involved comprehensive **hardware-level design** and **simulation (LTSpice)** for truth table verification, followed by **digital logic synthesis** using **Xilinx Vivado** and **SystemVerilog HDL**. Demonstrated expertise in **CMOS circuit design**, conversion of complex logic (XOR) to **universal gates**, and **Hardware Description Language (HDL) verification**.",
 tags: ["CMOS Transistors", "Digital Logic Design", "SystemVerilog", "Xilinx Vivado", "LTSpice", "Circuit Simulation", "Hardware Description Language (HDL)", "Universal Gates", "Hardware Implementation"],
 
     category: "Circuit Design",
@@ -191,7 +191,7 @@ document: "https://docs.google.com/document/d/1fHK8UWRuaKPc0ZGNkJoSnzqUAKiSiyy5/
   {
     id: "maze-sudoku-solver",
     title: "Maze & Sudoku Algorithm Solver",
-description: "Developed a C program to solve mazes using a recursive Depth First Search (DFS) algorithm. Implemented custom memory management for the maze data structure and validated the pathfinding logic.",
+description: "Developed a C program to solve mazes using a recursive **Depth First Search (DFS)** algorithm. Implemented custom **memory management** for the maze data structure and validated the pathfinding logic.",
 tags: ["C Programming", "Depth First Search (DFS)", "Algorithm Design", "Recursive Algorithms", "Data Structures", "Memory Management", "Pathfinding", "Problem Solving"],  
     category: "Software (OOP)",
     image: "/images/sudokuMaze.png",
@@ -201,7 +201,7 @@ tags: ["C Programming", "Depth First Search (DFS)", "Algorithm Design", "Recursi
   {
     id: "vlsi-floorplanning",
 title: "Slicing Tree Floorplanner for VLSI Physical Design",
-description: "Developed a C program to implement a Slicing Tree (binary tree structure) for VLSI floorplanning. Performed geometric optimizations using tree manipulations (rotate, recut, swap topology/modules) and generated the Polish Expression for module packing to minimize total chip area.",
+description: "Developed a C program to implement a **Slicing Tree** (binary tree structure) for VLSI floorplanning. Performed geometric optimizations using tree manipulations (rotate, recut, swap topology/modules) and generated the **Polish Expression** for module packing to minimize total chip area.",
 tags: ["VLSI Physical Design", "Floorplanning", "Slicing Tree", "Binary Tree", "Optimization Algorithms", "Data Structures", "C Programming", "Postfix Expression"],  
 
     category: "Software (OOP)",
@@ -212,7 +212,7 @@ tags: ["VLSI Physical Design", "Floorplanning", "Slicing Tree", "Binary Tree", "
   {
     id: "geometric-shape-engine",
     title: "C++ Object-Oriented Geometric Shape Analysis and Data Visualization Tool",
-description: "Developed a C++ Object-Oriented solution for geometric shape analysis, utilizing Polymorphism and Template Programming for unified calculations across 2D/3D shapes. Implemented Operator Overloading for shape manipulation and designed efficient algorithms for computing properties like area, volume, surface area, and centroids. The project emphasizes software architecture, data structures, and algorithm design, providing a modular and extensible framework for geometric computations with robust error handling and debugging techniques.",
+description: "Developed a C++ **Object-Oriented** solution for geometric shape analysis, utilizing **Polymorphism** and **Template Programming** for unified calculations across 2D/3D shapes. Implemented **Operator Overloading** for shape manipulation and designed efficient algorithms for computing properties like area, volume, surface area, and centroids. The project emphasizes **software architecture**, **data structures**, and **algorithm design**, providing a modular and extensible framework for geometric computations with robust error handling and debugging techniques.",
 tags: ["C++", "Object-Oriented Programming (OOP)", "Polymorphism", "Template Programming", "Operator Overloading", "Geometric Modeling", "Algorithm Design", "Data Structures", "Software Architecture", "Debugging"], 
 
     category: "Software (OOP)",
@@ -223,7 +223,7 @@ tags: ["C++", "Object-Oriented Programming (OOP)", "Polymorphism", "Template Pro
   {
     id: "sparse-matrix",
     title: "Sparse Matrix Operations and Fundamental Data Structures in C",
-description: "Developed a foundational data structures and algorithms implementation in C for efficient sparse matrix operations. Engineered a linked list of tuples data structure for memory optimization, implementing core matrix functions: addition, multiplication, and file I/O.",
+description: "Developed a foundational **data structures and algorithms** implementation in **C** for efficient **sparse matrix operations**. Engineered a linked list of tuples data structure for **memory optimization**, implementing core matrix functions: **addition, multiplication, and file I/O**.",
 tags: ["C Programming", "Data Structures", "Algorithms", "Sparse Matrix", "Linked List", "Memory Optimization", "Scientific Computing", "Numerical Methods"], 
 
     category: "Software (OOP)",
@@ -248,7 +248,7 @@ tags: ["C Programming", "Data Structures", "Algorithms", "Sparse Matrix", "Linke
   {
     id: "test-automation-python",
     title: "Device Test Automation using Python",
-description: "Designed and implemented a comprehensive Python-based automated testing framework for electromechanical product validation. The unified Command Line Interface (CLI) controls five distinct lab instruments (Oscilloscope, Power Supply, Flowmeter, Breathing Simulator, CPAP device). Achieved high-speed, non-blocking data acquisition by leveraging multi-threading. The architecture utilized Object-Oriented Programming (OOP) and implemented SCPI-like commands to manage devices and log data to CSV files.",
+description: "Designed and implemented a comprehensive **Python-based automated testing framework** for electromechanical product validation. The **unified Command Line Interface (CLI)** controls **five distinct lab instruments** (Oscilloscope, Power Supply, Flowmeter, Breathing Simulator, CPAP device). Achieved **high-speed, non-blocking data acquisition** by leveraging **multi-threading**. The architecture utilized **Object-Oriented Programming (OOP)** and implemented **SCPI-like commands** to manage devices and log data to **CSV files**.",
 tags: ["Python", "Test Automation", "Hardware-in-the-Loop (HIL)", "Data Acquisition", "Object-Oriented Programming (OOP)", "SCPI", "Multithreading", "CLI Development", "Firmware Communication"],  
 
     category: "HW/Embedded System",
@@ -732,8 +732,6 @@ export default function ProjectsPage() {
 // document: "https://drive.google.com/file/d/1QUJyTAowjudIeftRK-5p_jG3Jyz-LCYI/view?usp=sharing",
 //     featured: false,
 //   },
-
-
 //  {
 //     id: "Digital Electronics",
 //   title: "Digital Electronics - Half Adder Design and Implementation using CMOS and SystemVerilog",
