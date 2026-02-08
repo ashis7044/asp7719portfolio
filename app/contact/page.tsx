@@ -346,7 +346,7 @@ export default function ContactPage() {
                   </p>
                   <Button
                     variant="outline"
-                    className="border-white text-white hover:bg-white hover:text-blue-600"
+                    className="border-white text-white bg-transparent hover:bg-white hover:text-blue-600"
                     asChild
                   >
                     <a href="/documents/AshisPandey-Resume.zip" download>
