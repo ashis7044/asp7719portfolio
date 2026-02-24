@@ -125,9 +125,10 @@ document: "https://docs.google.com/document/d/1Ru_Rr_nkPKUi-IC-TuUeKs6Qbnp2WqaV/
   {
     id: "patch-antenna",
     title: "Patch Antenna Design",
-    description:
-      "Real-time FFT spectrum analyzer using STM32 and TFT display",
-    tags: ["DSP", "STM32", "C", "Embedded Systems"],
+    description: "Designed and simulated a microstrip patch antenna with optimized length and width for frequency and impedance control using Computer Aided Engineering Simulation software called CST Studio. Calculated and analyzed key RF performance metrics including 50omega characteristic impedance, $2.4GHz resonant frequency, 6.96DBi directivity, and a 0.02 reflection coefficient, utilizing a high-frequency substrate with epsilon = 4.3$.",
+tags: ["RF Engineering", "Antenna Theory", "Electromagnetics", "Microstrip Design", "S-Parameters", "VSWR" ],
+document: "https://docs.google.com/document/d/1U-CGowjhdWaLQ5MUwFLIOms3PDUZp-_B/edit?usp=sharing&ouid=106981614339979825445&rtpof=true&sd=true",
+image: "/images/antenna.png",
     category: "Electromagnetics",
     featured: false,
   },
